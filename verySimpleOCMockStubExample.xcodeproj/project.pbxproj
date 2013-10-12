@@ -16,11 +16,15 @@
 		D7999ABF180769D50085681F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D7999ABD180769D50085681F /* Main.storyboard */; };
 		D7999AC2180769D50085681F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D7999AC1180769D50085681F /* ViewController.m */; };
 		D7999AC4180769D50085681F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D7999AC3180769D50085681F /* Images.xcassets */; };
-		D7999ACB180769D50085681F /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D7999ACA180769D50085681F /* XCTest.framework */; };
 		D7999ACC180769D50085681F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D7999AAB180769D50085681F /* Foundation.framework */; };
 		D7999ACD180769D50085681F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D7999AAF180769D50085681F /* UIKit.framework */; };
 		D7999AD5180769D50085681F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D7999AD3180769D50085681F /* InfoPlist.strings */; };
-		D7999AD7180769D50085681F /* verySimpleOCMockStubExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D7999AD6180769D50085681F /* verySimpleOCMockStubExampleTests.m */; };
+		D7999AE218076A100085681F /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D7999AE118076A100085681F /* DetailViewController.m */; };
+		D7999AE318076A100085681F /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D7999AE118076A100085681F /* DetailViewController.m */; };
+		D7999AE718076A890085681F /* libOCMock.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D7999AE618076A890085681F /* libOCMock.a */; };
+		D7999AE818076C840085681F /* libOCMock.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D7999AE618076A890085681F /* libOCMock.a */; };
+		D7999AEA18076CEA0085681F /* otherTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D7999AE918076CEA0085681F /* otherTests.m */; };
+		D7999AEC18076D580085681F /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D7999AEB18076D580085681F /* SenTestingKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,11 +52,15 @@
 		D7999AC0180769D50085681F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		D7999AC1180769D50085681F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		D7999AC3180769D50085681F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		D7999AC9180769D50085681F /* verySimpleOCMockStubExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = verySimpleOCMockStubExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D7999AC9180769D50085681F /* verySimpleOCMockStubExampleTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = verySimpleOCMockStubExampleTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D7999ACA180769D50085681F /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		D7999AD2180769D50085681F /* verySimpleOCMockStubExampleTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "verySimpleOCMockStubExampleTests-Info.plist"; sourceTree = "<group>"; };
 		D7999AD4180769D50085681F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		D7999AD6180769D50085681F /* verySimpleOCMockStubExampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = verySimpleOCMockStubExampleTests.m; sourceTree = "<group>"; };
+		D7999AE018076A100085681F /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		D7999AE118076A100085681F /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		D7999AE618076A890085681F /* libOCMock.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libOCMock.a; path = usr/lib/libOCMock.a; sourceTree = "<group>"; };
+		D7999AE918076CEA0085681F /* otherTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = otherTests.m; sourceTree = "<group>"; };
+		D7999AEB18076D580085681F /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D7999AE718076A890085681F /* libOCMock.a in Frameworks */,
 				D7999AAE180769D50085681F /* CoreGraphics.framework in Frameworks */,
 				D7999AB0180769D50085681F /* UIKit.framework in Frameworks */,
 				D7999AAC180769D50085681F /* Foundation.framework in Frameworks */,
@@ -70,7 +79,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D7999ACB180769D50085681F /* XCTest.framework in Frameworks */,
+				D7999AEC18076D580085681F /* SenTestingKit.framework in Frameworks */,
+				D7999AE818076C840085681F /* libOCMock.a in Frameworks */,
 				D7999ACD180769D50085681F /* UIKit.framework in Frameworks */,
 				D7999ACC180769D50085681F /* Foundation.framework in Frameworks */,
 			);
@@ -93,7 +103,7 @@
 			isa = PBXGroup;
 			children = (
 				D7999AA8180769D50085681F /* verySimpleOCMockStubExample.app */,
-				D7999AC9180769D50085681F /* verySimpleOCMockStubExampleTests.xctest */,
+				D7999AC9180769D50085681F /* verySimpleOCMockStubExampleTests.octest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -101,6 +111,8 @@
 		D7999AAA180769D50085681F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				D7999AEB18076D580085681F /* SenTestingKit.framework */,
+				D7999AE618076A890085681F /* libOCMock.a */,
 				D7999AAB180769D50085681F /* Foundation.framework */,
 				D7999AAD180769D50085681F /* CoreGraphics.framework */,
 				D7999AAF180769D50085681F /* UIKit.framework */,
@@ -114,6 +126,8 @@
 			children = (
 				D7999ABA180769D50085681F /* AppDelegate.h */,
 				D7999ABB180769D50085681F /* AppDelegate.m */,
+				D7999AE018076A100085681F /* DetailViewController.h */,
+				D7999AE118076A100085681F /* DetailViewController.m */,
 				D7999ABD180769D50085681F /* Main.storyboard */,
 				D7999AC0180769D50085681F /* ViewController.h */,
 				D7999AC1180769D50085681F /* ViewController.m */,
@@ -137,7 +151,7 @@
 		D7999AD0180769D50085681F /* verySimpleOCMockStubExampleTests */ = {
 			isa = PBXGroup;
 			children = (
-				D7999AD6180769D50085681F /* verySimpleOCMockStubExampleTests.m */,
+				D7999AE918076CEA0085681F /* otherTests.m */,
 				D7999AD1180769D50085681F /* Supporting Files */,
 			);
 			path = verySimpleOCMockStubExampleTests;
@@ -187,7 +201,7 @@
 			);
 			name = verySimpleOCMockStubExampleTests;
 			productName = verySimpleOCMockStubExampleTests;
-			productReference = D7999AC9180769D50085681F /* verySimpleOCMockStubExampleTests.xctest */;
+			productReference = D7999AC9180769D50085681F /* verySimpleOCMockStubExampleTests.octest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -252,6 +266,7 @@
 				D7999AC2180769D50085681F /* ViewController.m in Sources */,
 				D7999ABC180769D50085681F /* AppDelegate.m in Sources */,
 				D7999AB8180769D50085681F /* main.m in Sources */,
+				D7999AE218076A100085681F /* DetailViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,7 +274,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D7999AD7180769D50085681F /* verySimpleOCMockStubExampleTests.m in Sources */,
+				D7999AE318076A100085681F /* DetailViewController.m in Sources */,
+				D7999AEA18076CEA0085681F /* otherTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -381,6 +397,10 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "verySimpleOCMockStubExample/verySimpleOCMockStubExample-Prefix.pch";
 				INFOPLIST_FILE = "verySimpleOCMockStubExample/verySimpleOCMockStubExample-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/abdullahbakhach/dev/iphone/sandbox/verySimpleOCMockStubExample/usr/lib,
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -394,6 +414,10 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "verySimpleOCMockStubExample/verySimpleOCMockStubExample-Prefix.pch";
 				INFOPLIST_FILE = "verySimpleOCMockStubExample/verySimpleOCMockStubExample-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/abdullahbakhach/dev/iphone/sandbox/verySimpleOCMockStubExample/usr/lib,
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -415,10 +439,25 @@
 					"DEBUG=1",
 					"$(inherited)",
 				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"\"$(SRCROOT)/usr/include\"",
+				);
 				INFOPLIST_FILE = "verySimpleOCMockStubExampleTests/verySimpleOCMockStubExampleTests-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/abdullahbakhach/dev/iphone/sandbox/verySimpleOCMockStubExample/usr/lib,
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-framework",
+					XCTest,
+					"-ObjC",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = xctest;
+				WRAPPER_EXTENSION = octest;
 			};
 			name = Debug;
 		};
@@ -434,10 +473,25 @@
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "verySimpleOCMockStubExample/verySimpleOCMockStubExample-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"\"$(SRCROOT)/usr/include\"",
+				);
 				INFOPLIST_FILE = "verySimpleOCMockStubExampleTests/verySimpleOCMockStubExampleTests-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/abdullahbakhach/dev/iphone/sandbox/verySimpleOCMockStubExample/usr/lib,
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-framework",
+					XCTest,
+					"-ObjC",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = xctest;
+				WRAPPER_EXTENSION = octest;
 			};
 			name = Release;
 		};
@@ -460,6 +514,7 @@
 				D7999ADC180769D50085681F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D7999ADD180769D50085681F /* Build configuration list for PBXNativeTarget "verySimpleOCMockStubExampleTests" */ = {
 			isa = XCConfigurationList;
@@ -468,6 +523,7 @@
 				D7999ADF180769D50085681F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
